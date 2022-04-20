@@ -1,0 +1,47 @@
+[[section-architecture-constraints]]
+== Restricciones de la Arquitectura
+[role="arc42help"]
+****
+.Contents
+Se trata de cualquier requisito que restrinja a los arquitectos del software
+en su libertad de diseño, toma de decisiones sobre la implementación o sobre 
+el proceso del desarrollo.
+****
+
+=== Restricciones técnicas
+[role="arc42help"]
+****
+.Contents
+Son las restricciones tecnicas que tendrá el equipo a lo largo del desarrollo.
+
+.Form
+Tabla con todas las restricciones técnicas junto con una breve descripción .
+****
+[options="header",cols="1,2"]
+|===
+|Restricción|Descripción
+|React| Usaremos react para la creación del Frontend de la Aplicación.
+|TypeScript| TypeScript es un lenguaje de programación tipado que se basa en JavaScript. 
+|SOLID| Solid permite a los usuarios almacenar sus datos de forma segura en almacenes de datos descentralizados llamados Pods.
+|Git| El código ha de ser subido a un repositorio remoto en GitHub.
+|PlantUML| Herramienta de código abierto que permite la creación de diagramas de forma textual.
+|Draw.io| Herramienta que permite la creación de diagramas de forma gráfica.
+|===
+
+=== Restricciones de negocio
+[role="arc42help"]
+****
+.Contents
+Son las restricciones de negocio para el desarrollo del sistema.
+
+.Form 
+Tabla con todas las restricciones de negocio junto con una breve descripción .
+****
+
+[options="header",cols="1,2"]
+|===
+|Restricción|Descripción
+|Equipo| El equipo esta formado por 5 personas con las que apenas hemos interactuado con anterioridad.
+|Horarios| Todos somos estudiantes con más asignaturas o incluso que trabaja mientras cursa esta asignatura.
+|Límite de tiempo| Cada entrega tiene una fecha de entrega bastante cercana a la anterior.
+|===

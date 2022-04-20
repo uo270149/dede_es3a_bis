@@ -1,0 +1,40 @@
+[[section-glossary]]
+== Glosario
+
+
+
+[role="arc42help"]
+****
+.Contents
+The most important domain and technical terms that your stakeholders use when discussing the system.
+
+You can also see the glossary as source for translations if you work in multi-language teams.
+
+.Motivation
+You should clearly define your terms, so that all stakeholders
+
+* have an identical understanding of these terms
+* do not use synonyms and homonyms
+
+.Form
+A table with columns <Term> and <Definition>.
+
+Potentially more columns in case you need translations.
+
+****
+
+[options="header",cols="1,3"]
+|===
+| Término         | Definición
+| Express     | Tambien conocido como Express.js. Es un framework de aplicaciones web ligero y minimalista. Proporciona un amplio conjunto de funciones para crear aplicaciones web sobre NodeJS
+| Git     | Git es un sistema de control de versiones distribuido gratuito y de código abierto diseñado para manejar todo, desde proyectos pequeños hasta proyectos muy grandes, con rapidez y eficiencia. Más información sobre Git y el control de versiones en https://git-scm.com/book/en/v2git 
+| Github     | Github (https://github.com) es un portal para gestionar las aplicaciones que utilizan el sistema Git. Además de permitirte mirar el código y descargarte las diferentes versiones de una aplicación, la plataforma también hace las veces de red social conectando desarrolladores con usuarios para que estos puedan colaborar mejorando la aplicación. Existen otras alternativas como gitlab (https://gitlab.com) y Bitbucket (https://bitbucket.org/).
+| JavaScript | Es un lenguaje de programación. Se suele abreviar como JS. Para una descripción más detallada puedes visitar https://es.wikipedia.org/wiki/JavaScript. También puedes consultar estos tutoriales: https://www.w3schools.com/js/ y https://es.javascript.info/
+| MERN | Es un conjunto de marcos de trabajo/tecnologías utilizados para el desarrollo web de aplicaciones que consta de MongoDB, React, Express y Node como sus componentes. 
+| MongoDB     | MongoDB es una de las bases de datos NoSQL orientada a documentos. Ofrece una gran escalabilidad y flexibilidad. Más información en https://www.mongodb.com/es/
+| Node     | También conocido como Node.js. Es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor (pero no limitándose a ello) basado en el lenguaje de programación JavaScript, asíncrono, con E/S de datos en una arquitectura orientada a eventos y basado en el motor V8 de Google. Más información sobre node.js en https://nodejs.org/es/
+| POD     | Acrónimo del inglés Personal Online Data. Es un contenedor digital que almacena los datos personales de un usuario. Se puede obtener un POD en https://solidproject.org/users/get-a-pod
+| React	 | React es una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página. Más información sobre React en https://es.reactjs.org/
+| SOLID | Acrónimo del inglés Social Linked Data. Es un proyecto de descentralización de datos en la web dirigido por Tim Berners-Lee (inventor de la web semántica) desarrollado en el Instituto de Tecnología de Massachusetts (MIT). El objetivo principal del proyecto es cambiar de forma radical la manera en la que las aplicaciones web funcionan hoy en día, siendo el usuario quien decide dónde almacenar sus datos, mejorando de esta forma la privacidad. Mas información sobre SOLID en https://github.com/kustomzone/awesome-solid y en https://github.com/itsee/awesome-solid.  **Atención: No confundir con los principios SOLID ** (https://es.wikipedia.org/wiki/SOLID)
+| PlantUML | Herramienta de código abierto que permite la creación de una gran cantidad de tipos de diagramas (UML, de despliegue, de secuencia...) de manera textual. Se puede obtener más información en https://plantuml.com/es/
+|===

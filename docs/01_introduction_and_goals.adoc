@@ -1,0 +1,76 @@
+[[section-introduction-and-goals]]
+
+
+[role="arc42help"]
+****
+		
+****
+== Introducción y Metas
+El proyecto trata de una aplicación de compra y venta de objetos, llamada DeDe, cuyo codigo fuente sera realizado con "TypeScript". Estará enfocada al mercado electrónico y dará soporte a la realización de pedidos asociados a una cuenta de usuario concreta.
+
+Objetivos de Negocio: 
+
+	-A corto plazo: Realizar una documentación adecuada de manera que se cumplan las 
+	expectativas y necesidades del proyecto.
+	-A largo plazo: Poder realizar una aplicación de manera que cumpla todos los objetivos 
+	de usabilidad para poder realizar compra/venta de playeros de una manera mas 
+	cómoda,sencilla y accesible.
+
+[role="arc42help"]
+****
+****
+
+=== Vista de Requerimientos
+	-Se necesitara una pequeña base de Typescript para la implementación de código de la aplicación y el uso de 
+	react para la implementación de cara al usuario.
+	-Para realizar el control de versiones es necesario el uso de git, herramienta muy util para trabajos de 
+	gran tamaño permitiendo el uso de varias ramas para no alterar los prototipos del proyecto.
+	-Será necesario emplear un navegador y disponer de un proveedor de internet para poder acceder a dede_es3a y 
+	utilizar toda la funcionalidad de la que dispone.
+	-El sistema permitirá al usuario realizar una búsqueda mediante la que filtrar los artículos mostrados según
+	su nombre/descripción.
+	-Dede_es3a dispondrá de un carrito en el que almacenar artículos y cuyo contenido podrá ser consultado por el 
+	usuario.
+	-Dede_es3a dará al usuario la posibilidad de añadir elementos al carrito.
+	-Dede_es3a dará al usuario la posibilidad de borrar elementos del carrito.
+	-Dede_es3a permitirá el registro de usuarios mediante formulario siempre y cuando el usuario no sea existente.
+	-Dede_es3a permitirá el registro de usuarios mediante formulario si las credenciales coinciden con la BDD.
+	-Dede_es3a dispondrá de uan lista de pedidos por usuario en la que se almacenará los pedidos realizados por el usuario.
+
+[role="arc42help"]
+****
+****
+=== Metas de calidad
+[options="header",cols="1,2,1,1"]
+|===
+|Meta de Calidad|Motivación|Prioridad del ED| Prioridad del Cliente
+|Privacidad |El objetivo es el tratamiento de la información privada de una manera descentralizada asegurando la privacidad del cliente|Alta|Alta
+|Usabilidad|Todos los usuarios deben poder utilizarlo, tengan conocimientos previos sobre la aplicación o no|Alta|Alta
+|Eficiencia |Realizar una compra debe ser sencilla para un usuario, haciendo que los tiempos de respuesta y de carga sean mas reducidos|Alta|Alta
+|Testabilidad|Los componentes principales deben de poder ser testeados y arreglados con facilidad|Alta|Baja
+|Modificabilidad|La arquitectura debe ser fácil de modificar, agregando nuevas características o cambiando las existentes|Media|Media
+|===
+
+[role="arc42help"]
+****
+
+****
+=== Partes interesadas (Stakeholders)
+
+[options="header",cols="1,2"]
+|===
+|Role/Name|Expectations| 
+Administradores |Realizar una administración cómoda y sin inconvenientes.
+| Equipo de desarrollo|Esperan poder obtener una aplicacíon correcta y usable.
+| Cliente | Sus expectativas son poder realizar una compra en la aplicación de una manera sencilla y accesible.
+|===
+
+Administradores: se encargan de modificar precios, calcular inventarios, ver todos los pedidos realizados o 
+realizar pedidos a proveedores
+
+Equipo de desarrollo: Que deben conocer la arquitectura de TypeScript, React y Solid.Deben trabajar de manera que se documente
+todo el código para facilitar el entendimiento por parte de los demás miembros del grupo. Deben realizar reuniones para 
+plantear las arquitecturas a usar. Por ejemplo: Para el desarrollo de Diagramas de secuencia.
+
+Cliente: Quien interactuaría con la version final de la aplicacíon para la realización de compra
+de Objetos.

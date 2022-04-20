@@ -1,0 +1,9 @@
+#configuración global
+global:
+  scrape_interval: 10s #intervalo de extracción 10s
+
+#configuración con solo un endpoint para extraer métricas
+scrape_configs:
+  -job_name: "dede_es3a"
+  static_configs:
+    -targets: ["restapi:5000"]

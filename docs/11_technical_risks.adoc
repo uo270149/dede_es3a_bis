@@ -1,0 +1,21 @@
+[[section-technical-risks]]
+== Riesgos y deuda técnica
+
+Los riesgo durante un proceso de desarrollo están siempre presentes, no obstante, su identificación y registro son cruciales para el bienestar de cualquier proyecto. En esta sección, iremos dejando constancia de todos y cada uno de los riesgo que se hayan encontrado así como las deudas técnicas que hayan podido o puedan surgir debido a malas decisiones. Realizar esta tarea correctamente implicará un crecimiento beneficioso tanto para el proyecto como para el equipo de desarrollo.
+
+A continuación se muestra una tabla [Table 1] en la que se irán recogiendo todos los riesgos y en la [Table 2] las deudas técnicas que se hayan ido identificando a lo largo del proceso de desarrollo. Están ordenados de mayor a menor prioridad.
+
+.Lista de riesgos
+[options="header",cols="1,2,3"]
+|===
+| Riesgo | Descripción | Prioridad
+| Diagramas del proyecto | Un postulado erróneo de éstos diagramas puede dar lugar a una construcción errónea del sistema derivando en cambios cuya dificultad probablemente sea proporcional al tiempo que se haya estado desarrollando el proyecto. | Alta
+|===
+
+.Lista de deudas técnicas
+[options="header",cols="1,2,3"]
+|===
+| Deuda técnica | Descripción | Prioridad
+| Investigación sobre el entorno de trabajo | Una amplia búsqueda de información acerca de cómo trabajar con Typescript, Solid y React facilitará enormente el trabajo una vez iniciada la implementación ya que no será sobre territorio desconocido. | Media
+| Sopesar las decisiones tomadas | Es conveniente que todo lo que se decida con respecto a la arquitectura del proyecto sea en base a un razonamiento y no de forma aleatoria. Así evitaremos cambios de planes en el último momento que puedan llegar a afectar negativamente al proyecto. | Baja
+|===

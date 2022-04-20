@@ -1,0 +1,37 @@
+[[section-solution-strategy]]
+== Estrategia de la solución
+
+[role="arc42help"]
+****
+.Contents
+A short summary and explanation of the fundamental decisions and solution strategies, that shape the system's architecture. These include
+
+* technology decisions
+* decisions about the top-level decomposition of the system, e.g. usage of an architectural pattern or design pattern
+* decisions on how to achieve key quality goals
+* relevant organizational decisions, e.g. selecting a development process or delegating certain tasks to third parties.
+
+.Motivation
+These decisions form the cornerstones for your architecture. They are the basis for many other detailed decisions or implementation rules.
+
+.Form
+Keep the explanation of these key decisions short.
+
+Motivate what you have decided and why you decided that way,
+based upon your problem statement, the quality goals and key constraints.
+Refer to details in the following sections.
+****
+
+Para el desarrollo de este proyecto viene impuesta como restricción la utilización de React, TypeScript y SOLID. No hay imposición en cuento a la base de datos a utilizar. Se ha decidito optar por seguir la arquitectura MERN. Es un conjunto de marcos/tecnologías utilizados para el desarrollo web de aplicaciones que consta de MongoDB, React, Express y Node como sus componentes. 
+
+Para el Front-End se utilizará React, una librería desarrollada y mantenida por Facebook. El elemento más importante de React es el componente, que es en esencia una pieza de la interfaz de usuario. Al diseñar una aplicación con React, lo que estamos haciendo es crear componentes independientes y reusables que nos permiten crear interfaces de usuario más complejas.
+
+La utilización de MongoDB como base de datos nos supone ademá una ventaja ya que en la asignatura de Sistemas Distribuidos e Internet también se utilizará, por lo que podemos reutilizar los conocimientos que se adquirirán para el desarrollo de este proyecto.
+
+Node es un entorno de ejecución que permite la ejecución de un programa escrito en JavaScritp. Utiliza una arquitectura de E/S basada en eventos y sin bloqueos, lo que nos ayudará a que la aplicación sea escalable y rápida. 
+
+Express es un framework para crear aplicaciones web, APIs y web services. Así como Node está destinado a ejecutar JavaScript del lado servidor, pero no para desarrollar sitios web, Express está destinado justo a esto, a crear sitios web.
+
+Para conseguir la máxima disponibilidad de la aplicación en vez de utilizar servidores propietarios se desplegará en la nube. Queda pendiente la decisión de en que nube en concreto se desplegará la aplicación.
+
+La privacidad de los datos de los usuarios se garantizará con la utilización de Solid. Solid es una especificación que permite a la gente guardar sus datos en almacenes descentralizados llamados Pods. 

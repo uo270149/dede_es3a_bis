@@ -1,0 +1,82 @@
+[[section-system-scope-and-context]]
+== Alcance y Contexto del Sistema
+
+[role="arc42help"]
+****
+.Contents
+System scope and context - as the name suggests - delimits your system (i.e. your scope) from all its communication partners
+(neighboring systems and users, i.e. the context of your system). It thereby specifies the external interfaces.
+
+If necessary, differentiate the business context (domain specific inputs and outputs) from the technical context (channels, protocols, hardware).
+
+.Motivation
+The domain interfaces and technical interfaces to communication partners are among your system's most critical aspects. Make sure that you completely understand them.
+
+.Form
+Various options:
+
+* Context diagrams
+* Lists of communication partners and their interfaces.
+****
+
+
+=== Contexto de negocio
+
+[role="arc42help"]
+****
+.Contents
+Specification of *all* communication partners (users, IT-systems, ...) with explanations of domain specific inputs and outputs or interfaces.
+Optionally you can add domain specific formats or communication protocols.
+
+.Motivation
+All stakeholders should understand which data are exchanged with the environment of the system.
+
+.Form
+All kinds of diagrams that show the system as a black box and specify the domain interfaces to communication partners.
+
+Alternatively (or additionally) you can use a table.
+The title of the table is the name of your system, the three columns contain the name of the communication partner, the inputs, and the outputs.
+****
+image:03_diagramaContextoNegocio.png["Diagrama de contexto"]
+
+*   **Cliente**
+
+	Usuarios finales de la aplicación. Son los clientes que van a realizar las compras.
+
+*   **Administrador**
+
+	Usuario que va a poder gestionar la aplicación: dar de alta productos, actualizar los stocks, revisar los pedidos, etc.
+
+*	**DeDe**
+
+	Nuestro sistema de venta online (Decentralized Delivery)
+
+*	**Base de datos**
+
+	Se guardará aquí toda la información necesaria para el funcionamiento de la aplciación: pedidos de los usuarios, productos, etc.
+
+*	**POD**
+
+	El sistema se conectará con el POD del usuario para obtener los datos de su dirección, ya que por privacidad no se almacenarán estos datos en nuestra aplicación.
+
+*	**Empresas de Mensajería**
+
+	Nuestro sistema se conectará con diferentes empresas de mensajería para poder calcular los costes de envío de los pedidos.
+	
+=== Contexto técnico
+
+[role="arc42help"]
+****
+.Contents
+Technical interfaces (channels and transmission media) linking your system to its environment. In addition a mapping of domain specific input/output to the channels, i.e. an explanation with I/O uses which channel.
+
+.Motivation
+Many stakeholders make architectural decision based on the technical interfaces between the system and its context. Especially infrastructure or hardware designers decide these technical interfaces.
+
+.Form
+E.g. UML deployment diagram describing channels to neighboring systems,
+together with a mapping table showing the relationships between channels and input/output.
+
+****
+
+Pendiente

@@ -1,0 +1,57 @@
+[[section-runtime-view]]
+== Vista de Ejecución
+
+
+[role="arc42help"]
+****
+.Contents
+The runtime view describes concrete behavior and interactions of the system’s building blocks in form of scenarios from the following areas:
+
+* important use cases or features: how do building blocks execute them?
+* interactions at critical external interfaces: how do building blocks cooperate with users and neighboring systems?
+* operation and administration: launch, start-up, stop
+* error and exception scenarios
+
+Remark: The main criterion for the choice of possible scenarios (sequences, workflows) is their *architectural relevance*. It is *not* important to describe a large number of scenarios. You should rather document a representative selection.
+
+.Motivation
+You should understand how (instances of) building blocks of your system perform their job and communicate at runtime.
+You will mainly capture scenarios in your documentation to communicate your architecture to stakeholders that are less willing or able to read and understand the static models (building block view, deployment view).
+
+.Form
+There are many notations for describing scenarios, e.g.
+
+* numbered list of steps (in natural language)
+* activity diagrams or flow charts
+* sequence diagrams
+* BPMN or EPCs (event process chains)
+* state machines
+* ...
+
+****
+
+=== Proceso de compra
+
+El primer escenario muestra el proceso de compra de un producto. Para ello, 
+el usuario debe conectarse con su cuenta y seleccionar la talla correspondiente para que se añada al carrito de la compra.
+
+image:DiagramaCompra.png["DiagramaCompra"]
+
+=== Proceso de Login
+El segundo escenario muestra el proceso de "Login". Para ello, 
+el usuario debe introducir los datos en el formulario, esos datos serán verificados y si son correctos
+volverá a la pantalla de inicio con la sesión iniciada.
+
+image:DiagramaLogin.JPG["LogIn"]
+
+=== Cálculo de los gastos de envío
+El tercer escenario nos muestra el proceso de cálculo de los costes de envío de un pedido. Tras finalizar el usuario el pedido, DeDe solicita al POD del usuario la dirección de envío del usuario. Con esta dirección solicita a la empresa de mensajería el importe de los gastos de envío. Una vez obtenido este importe le devuelve al usuario el importe total del pedido, con los gastos de envío incluidos. Si el usuario confirma el pedido DeDe procede a almacenarlo en la base de datos y muestra al usuario la confirmación del envío.
+
+image:06_diagramaSecuenciaEnvio.png["Cálculo de los gastos de envío"]
+
+=== Proceso de envío
+El último diagrama se corresponde con el proceso de envío al usuario del pedido desde la aplicación. Para ello, debe realizar el pedido
+una vez finalizado el proceso de compra.
+
+image:DiagramaEnvio.png["Envio"]
+

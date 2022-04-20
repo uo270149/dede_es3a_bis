@@ -1,0 +1,21 @@
+[[section-quality-scenarios]]
+== Requerimientos de Calidad
+
+La calidad es la habilidad de un producto o servicio de cumplir las necesidades, requisitos y expectativas del cliente. Para lograrlo, tendremos que ire cumplimentando una serie de requisitos que nos permitirán alcanzar y/o aumentar esta habilidad.
+
+=== Árbol de calidad
+
+
+En esta sección se muestra un diagrama de árbol de calidad para el sistema desarrollado. A medida que el proyecto vaya avanzando, se irá ampliando este diagrama hasta alcanzar las hojas, que serán los escenarios de calidad que describiremos en el siguiente apartado. Además, se incluirán enlaces en el árbol a los escenarios de la siguiente sección.
+
+image:DiagramaCalidad.png["DiagramaArbolCalidad"]
+
+=== Escenarios de calidad
+[options="header",cols="1,2"]
+|===
+|Requerimiento|Descripción
+| Privacidad | La aplicación no accede a los datos del usuario sin permisos, solo los necesarios para algunas funciones concretas. 
+| Usabilidad| La aplicación tiene una interfaz y manejo intuitivos, de uso fácil.
+| Accesibilidad| Cualquier usuario, puede interactuar con la página sin problemas. Nuestro objetivo es seguir unas pautas de accesibilidad Web.
+| Disponibilidad| En cualquier momento que el usuario desee interactuar con la aplicación, podrá hacerlo y se ejecutará eficientemente.
+|===

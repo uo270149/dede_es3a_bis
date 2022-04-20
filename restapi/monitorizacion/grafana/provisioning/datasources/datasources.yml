@@ -1,0 +1,10 @@
+apiVersion: 1
+datasources:
+  -name: Prometheus #nombre del datasource
+  type: prometheus #tipo del datasource
+  access: proxy #modo de acceso
+  orgId: 1 #org id
+  url: http://prometheus:9090 #url
+  basicAuth: false #deshabilitar basic auth
+  isDefault: true #marcar como default datasource
+  editable: true #habilitar la edicion

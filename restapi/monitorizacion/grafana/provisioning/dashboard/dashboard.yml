@@ -1,0 +1,12 @@
+apiVersion: 1
+
+providers:
+  -name: 'Prometheus' #nombre del provider
+  orgId: 1 #org id
+  folder: '' #nombre de la carpeta de dashboard
+  folderUid: '' #uid de la carpeta (se genera automáticamente si no se especifica)
+  type: file #tipo del provider
+  disableDeletion: false # deshabilitar eliminación del dashboard
+  editable: true #habilitar edición
+  options:
+    path: /etc/grafana/provisioning/dahsboards #path a la carpeta de dashboards
