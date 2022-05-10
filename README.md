@@ -12,10 +12,6 @@
 
 Este proyecto es un ejemplo basico de un sitio web utilizando **React** con **Typescript** y un endpoint usando **NodeJS** con **express**
 ## Miembros del equipo
->* Andrés Ángel González Granda - uo68216@uniovi.es
->* Andrea Auñón Antúnez - uo277876@uniovi.es
->* Javier Lopez de Juan - uo271447@uniovi.es
->* Alejandro Del Gallego Moro - uo271411@uniovi.es
 >* Sofia Suárez Fernandez - uo270149@uniovi.es
 
 ## Guia de inicio rápido
